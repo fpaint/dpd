@@ -1,0 +1,718 @@
+---
+- :code: 162J
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170007'
+    :street: Пленкина
+    :street_abbr: ул
+    :house_no: '39'
+    :descript: Пункт выдачи "220 Вольт"
+  :brand: 220 вольт
+  :client_department_num: '000000391'
+  :geo_coordinates:
+    :latitude: '56.867847'
+    :longitude: '35.926566'
+  :limits:
+    :max_shipment_weight: '100'
+    :max_weight: '15'
+    :max_length: '150'
+    :max_width: '150'
+    :max_height: '150'
+    :dimension_sum: '150'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+    - :week_days: Пн,Вс
+      :work_time: выходной
+    - :week_days: Вт,Ср,Чт,Пт
+      :work_time: '09:00 - 18:00'
+    - :week_days: Сб
+      :work_time: '09:00 - 14:00'
+  - :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вс
+      :work_time: выходной
+    - :week_days: Вт,Ср,Чт,Пт
+      :work_time: '09:00 - 18:00'
+    - :week_days: Сб
+      :work_time: '09:00 - 14:00'
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 185O
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170003'
+    :street: Петербургское
+    :street_abbr: ш
+    :house_no: '45'
+    :descript: 'Остановки "Вагоностроительный завод" (122 м до ПВЗ), "Вагонный завод"
+      (177 м . до ПВЗ), "Площадь Конституции" (94 м. до ПВЗ). Проезд: автобус - №№
+      30,31,41,154,56. троллейбус - №3,4, трамвай N5. маршрут.такси - №№ 6,9,19,55,132,222,223.
+      Здание находится на пл. Конституции. Салон связи "Билайн".'
+  :brand: Салон связи МикроСервис
+  :client_department_num: Tver_001
+  :geo_coordinates:
+    :latitude: '56.873343'
+    :longitude: '35.851346'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:00
+    - :week_days: Сб,Вс
+      :work_time: выходной
+  - :operation: PaymentByBankCard
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:00
+    - :week_days: Сб,Вс
+      :work_time: выходной
+  - :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:00
+    - :week_days: Сб,Вс
+      :work_time: выходной
+  - :operation: SelfPickup
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:00
+    - :week_days: Сб,Вс
+      :work_time: выходной
+  :extra_service:
+    :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 201Q
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170043'
+    :street: Можайского
+    :street_abbr: ул
+    :house_no: '60'
+    :building: '1'
+    :descript: 'Проезд: автобус №№ - 21,33,30; троллейбус №№ - 7,3; маршрут.такси
+      №№ - 12,55,33к,205,207,222,228,228д. Остановка: "Универсам". ТЦ "Можайский"
+      находится в центре мкр.Южный на пересечении ул.Можайского и б-ра Гусева, на
+      остановке общественного транспорта, вход со стороны арки, рядом с охраной и
+      администрацией. Пункт выдачи находится в секции №72ц на цокольном этаже.'
+  :brand: Центр выдачи интернет-заказов
+  :client_department_num: PN-00508
+  :geo_coordinates:
+    :latitude: '56.819436'
+    :longitude: '35.899865'
+  :limits:
+    :max_shipment_weight: '400'
+    :max_weight: '30'
+    :max_length: '200'
+    :max_width: '200'
+    :max_height: '200'
+    :dimension_sum: '200'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:30
+    - :week_days: Сб,Вс
+      :work_time: 10:00 - 18:00
+  - :operation: PaymentByBankCard
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:30
+    - :week_days: Сб,Вс
+      :work_time: 10:00 - 18:00
+  - :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:30
+    - :week_days: Сб,Вс
+      :work_time: 10:00 - 18:00
+  - :operation: SelfPickup
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:30
+    - :week_days: Сб,Вс
+      :work_time: 10:00 - 18:00
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРИМ, ПРОС, РАБТ
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - PCL
+    - CSM
+    - MXO
+    - PUP
+- :code: 224Q
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170008'
+    :street: Победы
+    :street_abbr: пр-кт
+    :house_no: '14'
+    :descript: 'Остановка: «Швейная фабрика». Автобус: 33. Маршрутное такси: 2, 33к,
+      208, 228 (при движении в сторону пл. Капошвара). Вход со стороны проезда Швейникова,
+      рядом с супермаркетом «Атак», 2 этаж.'
+  :brand: Ulmart
+  :client_department_num: F202
+  :geo_coordinates:
+    :latitude: '56.845507'
+    :longitude: '35.91428'
+  :limits:
+    :max_shipment_weight: '100'
+    :max_weight: '30'
+    :max_length: '200'
+    :max_width: '200'
+    :max_height: '200'
+    :dimension_sum: '200'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 22:00
+  - :operation: PaymentByBankCard
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 22:00
+  - :operation: SelfDelivery
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 22:00
+  - :operation: SelfPickup
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 22:00
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 238O
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170001'
+    :street: Калинина
+    :street_abbr: пр-кт
+    :house_no: '13'
+    :descript: 'Остановка "Бульвар Ногина" Проезд: автобус - №№ 14, 20,21,33. троллейбус
+      - №№ 2,4,7. маршрут.такси - №№ 211, 2,6,7,9,14,24,54. . Здание ТЦ "Пролетарка"
+      находится на остановке "Бульвар Ногина" ( с белыми колоннами). 2ой этаж, офис
+      31.'
+  :brand: Салон связи МикроСервис
+  :client_department_num: Tver_002
+  :geo_coordinates:
+    :latitude: '56.854782'
+    :longitude: '35.869603'
+  :limits:
+    :max_shipment_weight: '400'
+    :max_weight: '30'
+    :max_length: '130'
+    :max_width: '130'
+    :max_height: '130'
+    :dimension_sum: '130'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт
+      :work_time: 10:00 - 19:00
+    - :week_days: Пт,Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  - :operation: PaymentByBankCard
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт
+      :work_time: 10:00 - 19:00
+    - :week_days: Пт,Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  - :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт
+      :work_time: 10:00 - 19:00
+    - :week_days: Пт,Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  - :operation: SelfPickup
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт
+      :work_time: 10:00 - 19:00
+    - :week_days: Пт,Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС, РАБТ
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 272J
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170001'
+    :street: Калинина
+    :street_abbr: пр-кт
+    :house_no: 21Б
+    :descript: Магазин находится прямо на проспекте, магазин "Zip69.ru".
+  :brand: 220 вольт
+  :client_department_num: '000000477'
+  :geo_coordinates:
+    :latitude: '56.852882'
+    :longitude: '35.860629'
+  :limits:
+    :max_shipment_weight: '30'
+    :max_weight: '30'
+    :max_length: '200'
+    :max_width: '200'
+    :max_height: '200'
+    :dimension_sum: '200'
+  :schedule:
+    :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: 10:00 - 19:00
+    - :week_days: Сб,Вс
+      :work_time: выходной
+  :extra_service:
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PUP
+- :code: 361G
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170100'
+    :street: Радищева
+    :street_abbr: б-р
+    :house_no: '49'
+    :descript: 'СИТИЛИНК мини находится по адресу: бульвар Радищева , д.49 , вход
+      с торца здания между 47-м и 49-м домами'
+  :brand: СИТИЛИНК
+  :client_department_num: CMKTVER
+  :geo_coordinates:
+    :latitude: '56.857086'
+    :longitude: '35.909372'
+  :limits:
+    :max_shipment_weight: '30'
+    :max_weight: '30'
+    :max_length: '200'
+    :max_width: '200'
+    :max_height: '200'
+    :dimension_sum: '200'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 21:00
+  - :operation: PaymentByBankCard
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 21:00
+  - :operation: SelfDelivery
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 10:00 - 21:00
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 506S
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170034'
+    :street: Чайковского
+    :street_abbr: пр-кт
+    :house_no: 24/2Б
+    :descript: 'площадь Капошвара, рядом с РосДеньги.
+
+'
+  :brand: Билайн
+  :client_department_num: '005982'
+  :geo_coordinates:
+    :latitude: '56.847498'
+    :longitude: '35.906219'
+  :limits:
+    :max_shipment_weight: '400'
+    :max_weight: '10'
+    :max_length: '150'
+    :max_width: '150'
+    :max_height: '150'
+    :dimension_sum: '150'
+  :schedule:
+    :operation: SelfDelivery
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: '09:00 - 21:00'
+  :extra_service:
+    :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 508S
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170042'
+    :street: Скворцова-Степанова
+    :street_abbr: ул
+    :house_no: '7'
+    :descript: |-
+      Офис находится в ТЦ Волжанка,на 1 этаже, справой стороны от главного входа.
+      Маршрутка 6,9. Выйти на остановке ,,Горького",повернуть налево 7м.
+  :brand: Билайн
+  :client_department_num: '005984'
+  :geo_coordinates:
+    :latitude: '56.871097'
+    :longitude: '35.887099'
+  :limits:
+    :max_shipment_weight: '400'
+    :max_weight: '10'
+    :max_length: '150'
+    :max_width: '150'
+    :max_height: '150'
+    :dimension_sum: '150'
+  :schedule:
+    :operation: SelfDelivery
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: '09:00 - 21:00'
+  :extra_service:
+    :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 704P
+  :parcel_shop_type: П
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170100'
+    :street: Тверской
+    :street_abbr: пр-кт
+    :house_no: '2'
+    :descript: Постамат Халва расположен в магазине Перекресток
+  :brand: Халва
+  :client_department_num: '0850'
+  :geo_coordinates:
+    :latitude: '56.85302'
+    :longitude: '35.907624'
+  :limits:
+    :max_shipment_weight: '250'
+    :max_weight: '30'
+    :max_length: '42'
+    :max_width: '42'
+    :max_height: '42'
+    :dimension_sum: '115'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 00:01 - 23:59
+  - :operation: PaymentByBankCard
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 00:01 - 23:59
+  - :operation: SelfDelivery
+    :timetable:
+      :week_days: Пн,Вт,Ср,Чт,Пт,Сб,Вс
+      :work_time: 00:01 - 23:59
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '100000'
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - MAX
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
+- :code: 77I
+  :parcel_shop_type: ПВП
+  :state: Open
+  :address:
+    :city_id: '195730113'
+    :country_code: RU
+    :region_code: '69'
+    :region_name: Тверская
+    :city_code: '69000001000'
+    :city_name: Тверь
+    :index: '170003'
+    :street: Советская
+    :street_abbr: ул
+    :house_no: '31'
+    :descript: Пункт расположен в центре продаж и обслуживания Ростелеком. Остановка
+      Советская площадь, Автобусы 106, 15,20,21,31,41; маршрутки 11,12,13,207,23,51,55,7;
+      троллейбусы 2,3,4,5,7. Пройти 115 метров по улице Советская до площади Пушкина.
+      На углу здания вывеска Почта России. Центральный вход в здание Ростелеком.
+  :brand: Ростелеком
+  :client_department_num: '522860'
+  :geo_coordinates:
+    :latitude: '56.858601'
+    :longitude: '35.920534'
+  :limits:
+    :max_shipment_weight: '50'
+    :max_weight: '10'
+    :max_length: '100'
+    :max_width: '100'
+    :max_height: '100'
+    :dimension_sum: '180'
+  :schedule:
+  - :operation: Payment
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: '09:00 - 19:00'
+    - :week_days: Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  - :operation: SelfDelivery
+    :timetable:
+    - :week_days: Пн,Вт,Ср,Чт,Пт
+      :work_time: '09:00 - 19:00'
+    - :week_days: Сб
+      :work_time: 10:00 - 18:00
+    - :week_days: Вс
+      :work_time: выходной
+  :extra_service:
+  - :es_code: НПП
+    :params:
+      :name: sum_npp
+      :value: '15000'
+  - :es_code: ОЖД
+    :params:
+      :name: reason_delay
+      :value: ПРОС
+  - :es_code: ТРМ
+  :services:
+    :service_code:
+    - BZP
+    - CUR
+    - DIR
+    - DPE
+    - DPI
+    - ECN
+    - PCL
+    - CSM
+    - MXO
+    - PKT
+    - PUP
