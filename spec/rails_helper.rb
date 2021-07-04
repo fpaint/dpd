@@ -1,2 +1,1 @@
-ENV['MONGOID_ENV'] = 'test'
-Mongoid.load!(File.expand_path("dummy/mongoid.yml", __dir__))
+Mongoid.load!(File.expand_path("dummy/mongoid.yml", __dir__), :test)
