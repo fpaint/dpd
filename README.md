@@ -1,6 +1,6 @@
 # Dpd
 
-DPD API client module, extracted to the gem from a project. Used as 
+DPD API client module, extracted to the gem from a project.
 It use mongoid as a storage. I do not plan supporting other storage options. 
 
 ## Installation
@@ -22,9 +22,8 @@ DPD_CLIENT_KEY=<CLIENT_KEY>
 
 ## Usage
 
-
-First of all, you have two models with some useful data inside. `Dpd::Locality` is a collection of localities 
-supported by DPD. `Dpd::Terminal` is a collection of all DPD parcel shops.
+First of all, you have two models with useful data inside. `Dpd::Locality` is a collection of localities 
+supported by DPD. `Dpd::Terminal` is a collection of all DPD parcel shops. Not of all localities have a parcel shops. 
 
 To fill the collections with actual data from DPD API you can use rake tasks: 
 
@@ -54,8 +53,12 @@ pickup_city = 48951627 # source locality dpd_id
 delivery_city = 49052007 # destination locality dpd_id
 weight = 30 # parcel weight in kg
 service = ['MXO', 'ECN', 'PCL', 'CSM'] # delivery tariffs your company use
-self_delivery = true # false for courier delivery, true - for a customer should go to a parcel shop to get 
+self_delivery = true # false for courier delivery, true - customer should walk to a parcel shop  
 client = Dpd::Client.new
 client.get_service_cost(pickup_city, delivery_city, weight, service: service, self_delivery: self_delivery)
-# list of services and corresponding prices
+# returns a list of services and corresponding prices
 ```
+
+# Development
+
+To test the gem just clone the repo and run `rspec`.
