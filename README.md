@@ -22,8 +22,9 @@ DPD_CLIENT_KEY=<CLIENT_KEY>
 
 ## Usage
 
-First of all, it have two models with useful data inside. `Dpd::Locality` is a collection of localities, 
+First of all, it has two models with useful data inside. `Dpd::Locality` is a collection of localities, 
 supported by DPD. `Dpd::Terminal` is a collection of all DPD parcel shops. Not all of the localities have a parcel shops. 
+Shops have an address, geo location and full description how to find. 
 
 To fill the collections with actual data from DPD API use rake tasks: 
 
